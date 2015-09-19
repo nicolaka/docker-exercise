@@ -26,7 +26,7 @@ Success Criteria : When performing 'docker run -p 5000:5000 your_hub_username/do
 2) Deploying with Compose: Assuming docker-compose is installed on localhost, create a docker-compose.yml file to describe the web and db services to run the same app as in Exercise 1 with the following requirements:
 
 
-	#Note: As a pre-requisite for this exercise, you need to make the following changes to your app.py file:
+	Note: As a pre-requisite for this exercise, you need to make the following changes to your app.py file:
 			(-) client = MongoClient('localhost', 27017)
 			(+) client = MongoClient('db', 27017)
 	Then, you need to build and push a new version of your image with a v2 tag: 
