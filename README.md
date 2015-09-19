@@ -19,7 +19,8 @@ Exercises:
     - You may choose your preferred base image as long as the app works.
     - Make sure to build and push this image Docker Hub. e.g 'docker push <your_docker_hub_username>/dockerexercise:v1'.
     - Make sure to provide the Dockerfile in the Docker Hub repo long description section.
-    #Success Criteria : When performing 'docker run -p 5000:5000 <your_docker_hub_username>/dockerexercise:v1 ' on a host running MongoDB on port 27017, the app needs to be accessible on TCP PORT 5000. Dockerfile must be present in the repo's long description.
+    
+#Success Criteria : When performing 'docker run -p 5000:5000 <your_docker_hub_username>/dockerexercise:v1 ' on a host running MongoDB on port 27017, the app needs to be accessible on TCP PORT 5000. Dockerfile must be present in the repo's long description.
 
 2) Deploying with Compose: Assuming docker-compose is installed on localhost, create a docker-compose.yml file to describe the web and db services to run the same app as in Exercise 1 with the following requirements:
 	Note: As a pre-requisite for this exercise, you need to make the following changes to your app.py file:
@@ -36,7 +37,8 @@ Exercises:
 	- db service must expose port 27017.
 	- db service mus be passed a command argument of "--smallfiles".
         - the docker-compose.yml file should be uploaded as a long description to <your_docker_hub_username>/dockerexercise:v2 in Docker Hub.
-	#Success Criteria: when performing a 'docker-compose up' with the produced docker-compose.yml file, the app should be working and accessible on TCP PORT 5000.
+	
+#Success Criteria: when performing a 'docker-compose up' with the produced docker-compose.yml file, the app should be working and accessible on TCP PORT 5000.
 
 
 
