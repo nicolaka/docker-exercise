@@ -36,10 +36,9 @@ Success Criteria : When performing 'docker run -p 5000:5000 your_hub_username/do
 	- db service must use 'latest' image of the official mongo image.
 	- db service must expose port 27017.
 	- db service mus be passed a command argument of "--smallfiles".
-        - the docker-compose.yml file should be uploaded as a long description to <your_docker_hub_username>/dockerexercise:v2 in Docker Hub.
+   
 	
-Success Criteria: when performing a 'docker-compose up' with the produced docker-compose.yml file, the app should be working and accessible on TCP PORT 5000.
-
+Success Criteria: when performing a 'docker-compose up' with the produced docker-compose.yml file, the app should be working and accessible on TCP PORT 5000. docker-compose.yml needs to be included in the response to this exercise.
 
 
 
