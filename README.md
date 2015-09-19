@@ -9,7 +9,7 @@ There are a couple of files in this directory that are REQUIRED by the app to wo
 	4) static directory for css files.
 
 This app expects a MongoDB instance to be running in the background and listening to TCP PORT:27017. You can simply issue the following command
-to start a mongo db instance "docker run -d -p 27017:27017 mongo:latest". The app is started with "python app.py" from the provided directory.
+to start a mongo db instance `docker run -d -p 27017:27017 mongo:latest`. The app is started with "python app.py" from the provided directory.
 
 Exercises:
 
