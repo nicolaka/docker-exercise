@@ -2,6 +2,7 @@
 
 Goal: You have a simple Python 2.7 (Flask) and Mongo app that allows users to enter messages and displays the last message entered.
 There are a couple of files in this directory:
+
  	1) app.py is the flask app 
 	2) requirements.txt includes a list of Python packages required to run this app 
         3) templates directory for html templates used by app.py and 
