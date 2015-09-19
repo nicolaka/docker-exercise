@@ -4,9 +4,9 @@ Goal: You have a simple Python 2.7 (Flask) and Mongo app that allows users to en
 There are a couple of files in this directory:
 
  	1) app.py is the flask app 
-	2) requirements.txt includes a list of Python packages required to run this app 
-        3) templates directory for html templates used by app.py and 
-        4) static directory for css files.
+	2) requirements.txt includes a list of Python packages required to run this app
+	3) templates directory for html templates used by app.py and
+	4) static directory for css files.
 
 This app expects a MongoDB instance to be running in the background and listening to TCP PORT:27017. The app is started with "python app.py".
 
