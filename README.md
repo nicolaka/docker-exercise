@@ -17,7 +17,7 @@ Exercises:
 
     - Make sure you install python-pip and install required Python packages listed in requirements.txt(e.g pip install -r requirements.txt)
     - Make sure that container created from the Dockerfile image listens to TCP PORT 5000.
-    - You may choose your preferred base image as long as the app works. Recommended one is 'python:2.7' image.
+    - You may choose your preferred base image as long as the app works. Recommended one is 'python:2.7' image which comes with python-pip so you don't have to install it.
     - Make sure to build and push this image Docker Hub. e.g 'docker push <your_docker_hub_username>/dockerexercise:v1'.
     - Make sure to provide the Dockerfile in the Docker Hub repo long description section as well as inn the response to this exercise.
     
