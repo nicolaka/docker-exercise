@@ -19,7 +19,7 @@ Exercises:
     - Make sure that container created from the Dockerfile image listens to TCP PORT 5000.
     - You may choose your preferred base image as long as the app works. Recommended one is 'python:2.7' image.
     - Make sure to build and push this image Docker Hub. e.g 'docker push <your_docker_hub_username>/dockerexercise:v1'.
-    - Make sure to provide the Dockerfile in the Docker Hub repo long description section.
+    - Make sure to provide the Dockerfile in the Docker Hub repo long description section as well as inn the response to this exercise.
     
 Success Criteria : When performing 'docker run -p 5000:5000 your_hub_username/dockerexercise:v1 ' on a host running MongoDB on port 27017, the app needs to be accessible on TCP PORT 5000. Dockerfile must be present in the repo's long description.
 
