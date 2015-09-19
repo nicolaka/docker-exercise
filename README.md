@@ -38,7 +38,7 @@ Success Criteria : When performing 'docker run -p 5000:5000 your_hub_username/do
 	- web service needs to have db's ip address dynamically added to its /etc/hosts with the alias of "db".
 	- db service must use 'latest' image of the official mongo image.
 	- db service must expose port 27017.
-	- db service mus be passed a command argument of "--smallfiles".
+	- db service must be passed a command argument of "--smallfiles".
    
 	
 Success Criteria: when performing a 'docker-compose up' with the produced docker-compose.yml file, the app should be working and accessible on TCP PORT 5000. docker-compose.yml needs to be included in the response to this exercise.
