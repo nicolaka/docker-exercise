@@ -8,6 +8,7 @@ This app expects a MongoDB instance to be running in the background and listenin
 Exercises:
 
 1) Dockerizing: Assuming a MongoDB instance is listening on localhost:27017, create a Dockerfile to dockerise this app with the following requirements:
+
     - Make sure you install python-pip and install required Python packages listed in requirements.txt(e.g pip install -r requirements.txt)
     - Make sure that container created from the Dockerfile image listens to TCP PORT 5000.
     - You may choose your preferred base image as long as the app works.
