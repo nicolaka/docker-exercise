@@ -28,19 +28,21 @@ to start a mongo db instance `docker run -d -p 27017:27017 mongo:latest`. The ap
 
 
 **Note:** As a pre-requisite for this exercise, you need to make the following changes to your app.py file:
-```
+
 		(-) client = MongoClient('localhost', 27017)
 		(+) client = MongoClient('db', 27017)
 		
-```
+
 		
 Then, you need to build and push a new version of your image with a v2 tag: 
-		docker push `<your_docker_hub_username>/dockerexercise:v2`.
+
+
+		docker push `<your_docker_hub_username>/dockerexercise:v2`
 
 - the service names are web and db.
 - web service needs to use the image that you created `<your_docker_hub_username>/dockerexercise:v2`.
 - web service needs to bind host port 5000 to container port `5000`.
-- web service needs to have db's ip address dynamically added to its `/etc/hosts` with the alias of "db".
+- web service needs to have db's ip address dynamically discovered using the alias "db".
 - db service must use `latest` image of the official mongo image.
 - db service must expose port 27017.
 - db service must be passed a command argument of "--smallfiles".
