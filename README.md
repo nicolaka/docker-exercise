@@ -28,8 +28,11 @@ to start a mongo db instance `docker run -d -p 27017:27017 mongo:latest`. The ap
 
 
 **Note:** As a pre-requisite for this exercise, you need to make the following changes to your app.py file:
+```
 		(-) client = MongoClient('localhost', 27017)
 		(+) client = MongoClient('db', 27017)
+		
+```
 		
 Then, you need to build and push a new version of your image with a v2 tag: 
 		docker push `<your_docker_hub_username>/dockerexercise:v2`.
