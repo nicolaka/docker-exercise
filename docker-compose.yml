@@ -1,0 +1,15 @@
+
+services:
+  web:
+    image: ytrewq019283/dockerexercise:v2
+    build: .
+    environment:
+      MONGO_HOST: db
+    ports:
+      - "5001:5000"
+    depends_on:
+      - db
+
+  db:
+    image: mongo:3.6
+    command: ["--smallfiles"]
